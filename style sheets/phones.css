@@ -1,0 +1,458 @@
+.section_deals {
+    grid-template-columns: 350px 350px 350px;
+}
+
+.box img {
+    width: 350px;
+
+}
+
+#image-section {
+
+    grid-template-columns: 350px 350px 350px;
+
+}
+
+
+@media screen and (max-width:1320px) {
+
+    #mail_Section {
+
+        grid-template-columns: none;
+
+    }
+
+
+    .section1 {
+
+        justify-content: space-between;
+
+    }
+
+    #featured-box {
+
+        align-items: none;
+        justify-content: none;
+        justify-items: none;
+    }
+
+}
+
+
+@media screen and (max-width:1152px) {
+
+
+    #topdeal-section {
+
+
+        height: 550px;
+
+    }
+
+    .section_deals {
+
+        grid-template-columns: 300px 300px 300px;
+        grid-template-rows: 400px;
+        gap: 2rem;
+
+    }
+
+    .box img {
+        width: 300px;
+    }
+
+
+
+    #top-destinations {
+        height: 900px;
+        padding: 50px 0px;
+    }
+
+
+    #top-destinations h1 {
+
+        margin: 20px 5px;
+    }
+
+    #image-section {
+
+        grid-template-columns: 400px 400px;
+        grid-template-rows: 250px 250px 250px;
+
+    }
+
+    #nav_menu {
+
+        padding: 15px 0px;
+    }
+
+
+}
+
+
+
+@media screen and (max-width:970px) {
+
+
+    #topdeal-section {
+        height: 850px;
+    }
+
+    .section_deals {
+        grid-template-columns: 700px;
+        grid-template-rows: 220px 220px 220px;
+        gap: 1.5rem;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .box p {
+
+        align-self: center;
+    }
+
+    #sectionA {
+        margin: 30px;
+    }
+
+    .section-image img {
+        width: 235px;
+    }
+
+
+    .hamburger {
+
+        display: block;
+
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    #nav_menu {
+
+        position: absolute;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background: linear-gradient(to right, rgb(152, 152, 240), rgb(69 99 229));
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        z-index: 1;
+    }
+
+    #nav_menu .item {
+        margin: 16px 0px;
+    }
+
+    #nav_menu.active {
+
+        left: 0%;
+    }
+}
+
+@media screen and (max-width: 845px) {
+
+    #cover {
+
+        height: 525px;
+    }
+
+    .section1 img {
+        width: 100px;
+    }
+
+    .section1 h1 {
+
+        font-size: 2rem;
+    }
+
+    .section2 h2 {
+
+        font-size: 2rem;
+    }
+
+    #sectionA h1 {
+        font-size: 2.5rem;
+    }
+
+
+
+    #image-section {
+        grid-template-columns: 500px;
+        grid-template-rows: 150px 150px 150px;
+        grid-auto-rows: 150px;
+    }
+
+    #top-destinations {
+        height: 1100px;
+    }
+
+    #featured-box h2 {
+
+        font-size: 1.7rem;
+
+    }
+
+
+}
+
+@media screen and (max-width:725px) {
+
+
+    #cover h2 {
+
+        font-size: 1.7rem;
+    }
+
+    #cover h1 {
+
+        font-size: 2rem;
+
+    }
+
+    .section1 {
+
+        padding: 0px;
+
+    }
+
+    .section1 img {
+        width: 70px;
+    }
+
+    .section1 h1 {
+        font-size: 1.7rem;
+    }
+
+    .section1 p {
+        font-size: 1rem;
+    }
+
+    input[type='email'] {
+        padding: 4px;
+        font-size: 0.8rem;
+        width: 70%;
+    }
+
+    input[type='submit'] {
+        margin: 12px 0px;
+        padding: 7px;
+        width: 48%;
+        font-size: 0.5rem;
+    }
+
+
+    .section2 h2 {
+        font-size: 1.7rem;
+    }
+
+    .section2 p {
+        font-size: 1rem;
+    }
+
+    .section2 button {
+
+        width: 16%;
+        font-size: 0.6rem;
+
+
+    }
+
+    #topdeal-section h1 {
+
+        font-size: 2.4rem;
+    }
+
+    #topdeal-section {
+        height: 900px;
+    }
+
+    .section_deals {
+        grid-template-columns: 300px;
+        grid-template-rows: 220px 220px 220px;
+        gap: 2.5rem;
+        margin-top: 20px;
+    }
+
+
+    .box {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box p {
+        display: none;
+    }
+     
+    #sectionA h1 {
+        font-size: 2rem;
+    }
+
+    #top-destinations h1 {
+        
+        font-size: 2.5rem;
+
+    }
+
+    #featured-box h2 {
+        font-size: 1.5rem;
+    }
+
+
+    #links li a {
+
+        font-size: 1rem;
+         
+    }
+
+    #companylogo img {
+        width: 80px;
+    }
+
+    #companylogo h2 {
+
+        font-size: 1.5rem;
+         
+    }
+
+
+    #sign-up h2 {
+        font-size: 1.2rem;
+    }
+
+    #sign-up button {
+        font-size: 1rem;
+        width: 100px;
+    }
+}
+
+
+@media screen and (max-width:515px){
+
+    .logo img {
+
+        width: 59px;
+
+    }
+
+    #cover .btn {
+      
+        font-size: 0.7em;
+        width: 135px;
+    
+    }
+
+    #mail_Section {
+    
+        grid-template-rows: 100px;
+
+    }
+
+
+    .section1{
+
+        height: 100px;
+
+    }
+
+    .section2{
+        height: 100px;
+
+    }
+
+    .section1 img {
+        display: none;
+    }
+
+    .section1 h1 {
+        font-size: 1.4rem;
+    }
+
+    .section1 p {
+        display: none;
+    }
+
+  .section2 h2 {
+        font-size: 1.4rem;
+    }
+
+    .section2 p {
+        font-size: 0.9rem;
+    }
+
+    .section2 button {
+        width: 70px;
+        font-size: 0.6rem;
+    }
+
+    .section-image img {
+        display: none;
+    }
+
+    #image-section {
+        grid-template-columns: 340px;
+    }
+
+    #topdeal-section h1 {
+        font-size: 2rem;
+    }
+
+    #links li {
+        padding: 0px 10px;
+    }
+       
+    #links li a {
+        font-size: 0.6rem;
+    }
+
+    footer {
+        padding: 15px 5px;
+    }
+
+    #companylogo h2 {
+        font-size: 1.4rem;
+    }
+
+    #sign-up h2 {
+        font-size: 1rem;
+    }
+
+    #follow-us li h3 {
+        font-size: 1rem;
+    }
+
+    #follow-us li a img{
+            padding: 2px 10px;
+            width: 35px
+
+    }
+
+    #copyrights li a {
+        font-size: 0.7rem;
+    }
+
+    .logo h2 {
+        font-size: 1.5rem;
+    }
+
+    #navbar{
+        height: 70px;
+    }
+}
